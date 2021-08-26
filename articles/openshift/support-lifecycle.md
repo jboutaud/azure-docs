@@ -95,7 +95,7 @@ See the following guide for the [past Red Hat OpenShift Container Platform (upst
 |4.4|May 2020|July 2020|4.6 GA|
 |4.5|July 2020| November 2020|4.7 GA
 |4.6|October 2020| February 2021|4.8 GA|
-|4.7|February 2021| July 2021|4.9 GA|
+|4.7|February 2021| July 6th 2021|4.9 GA|
 
 ## FAQ
 
