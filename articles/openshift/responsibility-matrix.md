@@ -406,8 +406,6 @@ Microsoft and Red Hat are responsible for enabling changes to the cluster infras
 
 <li>Monitor utilization of control plane (master nodes)
 
-<li>Scale and/or resize control plane nodes to maintain quality of service
-
 <li>Monitor utilization of customer resources including Network, Storage and Compute capacity. Where autoscaling features are not enabled alert customer for any changes required to cluster resources (eg. new compute nodes to scale, additional storage, etc.)
 </li>
 </ul>
