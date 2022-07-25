@@ -120,6 +120,16 @@ Azure Red Hat OpenShift 4 supports node instances on the following virtual machi
 |L48s_v2|Standard_L48s_v2|32|384|
 |L64s_v2|Standard_L48s_v2|64|512|
 
+Day 2 (via machineset):
+
+|Series|Size|vCPU|Memory: GiB|
+|-|-|-|-|
+|L8s_v2|Standard_L8s_v2|8|64|
+|L16s_v2|Standard_L16s_v2|16|128|
+|L32s_v2|Standard_L32s_v2|32|256|
+|L48s_v2|Standard_L48s_v2|32|384|
+|L64s_v2|Standard_L48s_v2|64|512|
+
 ### Memory and storage optimized
 
 |Series|Size|vCPU|Memory: GiB|
