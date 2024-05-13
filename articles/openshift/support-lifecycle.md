@@ -70,7 +70,7 @@ You can reference upcoming version releases and deprecations on the [Azure Red H
 For new minor versions of Red Hat OpenShift Container Platform:
 * The Azure Red Hat OpenShift SRE team publishes an announcement with the planned date of a new version release, and respective old version deprecation, in the [Azure Red Hat OpenShift Release notes](https://github.com/Azure/OpenShift/releases) at least 30 days prior to removal.
 * The Azure Red Hat OpenShift SRE team publishes a service health notification available to all customers with Azure Red Hat OpenShift and portal access, and sends an email to the subscription administrators with the planned version removal dates.
-* Customers have 30 days from version removal to upgrade to a supported minor version release to continue receiving support.
+* Customers have 30 days from version removal to upgrade to a supported minor version release to continue receiving support. Bug fixes or CVEs encountered during this period will require an upgrade to a currently supported version.
 
 For new patch versions of Red Hat OpenShift Container Platform:
 * Because of the urgent nature of patch versions, these can be introduced into the service by Azure Red Hat OpenShift SRE team as they become available.
@@ -86,7 +86,7 @@ Specific patch releases may be skipped, or rollout may be accelerated depending 
 
 See the following guide for the [past Red Hat OpenShift Container Platform (upstream) release history](https://access.redhat.com/support/policy/updates/openshift/#dates).
 
-|OCP Version|Upstream Release|Azure Red Hat OpenShift General Availability|End of Life|
+|OCP Version|Upstream Release|Azure Red Hat OpenShift Install Availability|End of Life|
 |-|-|-|-|
 |4.4|May 2020|July 2020|4.6 GA|
 |4.5|July 2020| November 2020|4.7 GA|
