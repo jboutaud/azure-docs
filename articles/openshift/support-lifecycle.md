@@ -86,7 +86,7 @@ Specific patch releases may be skipped, or rollout may be accelerated depending 
 
 See the following guide for the [past Red Hat OpenShift Container Platform (upstream) release history](https://access.redhat.com/support/policy/updates/openshift/#dates).
 
-|OCP Version|Upgrade availability|Install Availability|End of Life|
+|OCP Version|Upgrade Availability|Install Availability|End of Life|
 |-|-|-|-|
 |4.4|May 2020|July 2020|4.6 GA|
 |4.5|July 2020| November 2020|4.7 GA|
