@@ -32,7 +32,7 @@ Customers should aim to run the latest minor release of the major version they'r
 
 ### Upgrade channels
 
-Upgrade channels are tied to a minor version of Red Hat OpenShift Container Platform (OCP). For instance, OCP 4.13 upgrade never includes an upgrade to a 4.14 release. Upgrade channels control only release selection and don't impact the version of the cluster.
+Upgrade channels are tied to a minor version of Red Hat OpenShift Container Platform (OCP). For instance, OCP 4.13 upgrades never includes an upgrade to a 4.14 release. Upgrade channels control only release selection and don't impact the version of the cluster.
 
 Azure Red Hat OpenShift provides support for stable channels only. For example: stable-4.14.
 
@@ -61,7 +61,7 @@ A cluster might transition to a Limited Support status for many reasons, includi
   - Azure Red Hat OpenShift SREs provide commercially reasonable support to upgrade from an unsupported version to a supported version. However, if a supported upgrade path is no longer available, you might have to create a new cluster and migrate your workloads.
 
 - If you remove or replace any native Azure Red Hat OpenShift components or any other component that is installed and managed by the service.
-  - If cluster administrator permissions were used, Azure Red Hat OpenShift is not responsible for any of your or your authorized users’ actions, including those that affect infrastructure services, service availability, or data loss. If any such actions are detected, the cluster might transition to a Limited Support status. You should then either revert the action or create a support case to explore remediation steps that might require you to delete and recreate the cluster.
+  - If cluster administrator permissions were used in conflict with the support policy, Azure Red Hat OpenShift is not responsible for any of your or your authorized users’ actions, including those that affect infrastructure services, service availability, or data loss. If any such actions are detected, the cluster might transition to a Limited Support status. You should then either revert the action or create a support case to explore remediation steps that might require you to delete and recreate the cluster.
 
 ## Release and deprecation process
 
