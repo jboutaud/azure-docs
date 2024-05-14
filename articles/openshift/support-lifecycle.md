@@ -42,7 +42,7 @@ If you change to a channel that doesn't include your current release, an alert d
 
 ## Red Hat OpenShift Container Platform version support policy
 
-Azure Red Hat OpenShift supports generally available (GA) minor versions of Red Hat OpenShift Container Platform for at least 14-months from when it became available as a stable release.
+Azure Red Hat OpenShift supports generally available (GA) minor versions of Red Hat OpenShift Container Platform for at least 14-months from when it became available as a stable release. In other words, an OpenShift version will be supported on Azure Red Hat OpenShift for at least 14 months from the date it became available as an upgrade.
 
 If available in a stable upgrade channel, newer minor releases (N+1, N+2, etc...) available in upstream OCP, are supported.
 
@@ -86,7 +86,7 @@ Specific patch releases may be skipped, or rollout may be accelerated depending 
 
 See the following guide for the [past Red Hat OpenShift Container Platform (upstream) release history](https://access.redhat.com/support/policy/updates/openshift/#dates).
 
-|OCP Version|Upstream Release|Azure Red Hat OpenShift Install Availability|End of Life|
+|OCP Version|Upgrade availability|Install Availability|End of Life|
 |-|-|-|-|
 |4.4|May 2020|July 2020|4.6 GA|
 |4.5|July 2020| November 2020|4.7 GA|
