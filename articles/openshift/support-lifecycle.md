@@ -16,7 +16,7 @@ Azure Red Hat OpenShift is built from specific releases of OCP. This article cov
 
 ## Red Hat OpenShift versions
 
-Red Hat OpenShift Container Platform uses semantic versioning. Semantic versioning uses different levels of version numbers to specify different levels of versioning. The following table illustrates the different parts of a semantic version number, in this case using the example version number 4.13.3.
+Red Hat OpenShift Container Platform uses semantic versioning. Semantic versioning uses different levels of version numbers to specify different levels of versioning. The following table illustrates the different parts of a semantic version number, in this case using the example version number 4.14.16.
 
 |Major version (x)|Minor version (y)|Patch (z)|
 |-|-|-|
