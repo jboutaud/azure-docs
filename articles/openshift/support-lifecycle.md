@@ -32,11 +32,11 @@ Customers should aim to run the latest minor release of the major version they'r
 
 ### Upgrade channels
 
-Upgrade channels are tied to a minor version of Red Hat OpenShift Container Platform (OCP). An upgrade channel never includes a minor version above the the channel version, but may include a version below. For instance, OCP stable-4.13 upgrade channel never includes an upgrade to a 4.14 release, but will include 4.12. Upgrade channels control only release selection and don't impact the version of the cluster.
+Upgrade channels are tied to a minor version of Red Hat OpenShift Container Platform (OCP). An upgrade channel never includes a minor version above the the channel version, but may include a version below. For instance, the OCP `stable-4.13` upgrade channel never includes an upgrade to a 4.14 release, but will include 4.12. Upgrade channels control only release selection and don't impact the version of the cluster.
 
-Azure Red Hat OpenShift provides support for stable channels only. For example: stable-4.14.
+Azure Red Hat OpenShift provides support for stable channels only. For example: `stable-4.14`.
 
-You can use the stable-4.14 channel to upgrade from a previous minor version of Azure Red Hat OpenShift. Clusters upgraded using fast, prerelease, and candidate channels could put your cluster in Limited Support. 
+You can use the `stable-4.14` channel to upgrade from a previous minor version of Azure Red Hat OpenShift. Clusters upgraded using fast, prerelease, and candidate channels could put your cluster in Limited Support. 
 
 If you change to a channel that doesn't include your current release, an alert displays and no updates can be recommended. However, you can safely change back to your original channel at any point.
 
@@ -122,4 +122,4 @@ If your ARO cluster is running an OpenShift version that isn't on the supported 
 
 **I don't see a newer version of OpenShift in the release calendar, can I still upgrade and be supported?**
 
-If a newer version of OpenShift is available in the "stable" upgrade channel, then you can upgrade to that new version and be fully supported.  For example, if your cluster is currently on 4.14.z and now version 4.15.z is available in the OCP stable-4.15 channel, even though 4.15 is not listed in the release calendar, you can upgrade to 4.15.z and be fully supported.
+If a newer version of OpenShift is available in the "stable" upgrade channel, then you can upgrade to that new version and be fully supported.  For example, if your cluster is currently on 4.14.z and now version 4.15.z is available in the OCP `stable-4.15` channel, even though 4.15 is not listed in the release calendar, you can upgrade to 4.15.z and be fully supported.
