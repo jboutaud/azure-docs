@@ -20,7 +20,7 @@ Red Hat OpenShift Container Platform uses semantic versioning. Semantic versioni
 
 |Major version (x)|Minor version (y)|Patch (z)|
 |-|-|-|
-|4|13|3|
+|4|14|16|
 
 Each number in the version indicates general compatibility with the previous version:
 
@@ -32,7 +32,7 @@ Customers should aim to run the latest minor release of the major version they'r
 
 ### Upgrade channels
 
-Upgrade channels are tied to a minor version of Red Hat OpenShift Container Platform (OCP). For instance, OCP 4.13 upgrade never includes an upgrade to a 4.14 release. Upgrade channels control only release selection and don't impact the version of the cluster.
+Upgrade channels are tied to a minor version of Red Hat OpenShift Container Platform (OCP). An upgrade channel never includes a minor version above the the channel version, but may include a version below. For instance, OCP stable-4.13 upgrade channel never includes an upgrade to a 4.14 release, but will include 4.12. Upgrade channels control only release selection and don't impact the version of the cluster.
 
 Azure Red Hat OpenShift provides support for stable channels only. For example: stable-4.14.
 
@@ -46,7 +46,7 @@ Azure Red Hat OpenShift supports generally available (GA) minor versions of Red 
 
 If available in a stable upgrade channel, newer minor releases (N+1, N+2, etc...) available in upstream OCP, are supported.
 
-In extreme circumstances a critical patch update may be applied to clusters automatically by Azure Red Hat OpenShift Site Reliability Engineers (SRE). Generally, customers are encouraged to install patch updates in advance as soon as they are available.
+In extreme circumstances a critical patch update may be applied to clusters automatically by Azure Red Hat OpenShift Site Reliability Engineers (SRE). Generally, customers are encouraged to install patch (z-stream) updates as soon as they are available.
 
 > [!NOTE]
 > Please note that if customers are running an unsupported Red Hat OpenShift version, they may be asked to upgrade when requesting support for the cluster. Clusters running unsupported Red Hat OpenShift releases are not covered by the Azure Red Hat OpenShift SLA.
@@ -61,7 +61,7 @@ A cluster might transition to a Limited Support status for many reasons, includi
   - Azure Red Hat OpenShift SREs provide commercially reasonable support to upgrade from an unsupported version to a supported version. However, if a supported upgrade path is no longer available, you might have to create a new cluster and migrate your workloads.
 
 - If you remove or replace any native Azure Red Hat OpenShift components or any other component that is installed and managed by the service.
-  - If kubeadmin permissions were used, Azure Red Hat OpenShift is not responsible for any of your or your authorized users’ actions, including those that affect infrastructure services, service availability, or data loss. If any such actions are detected, the cluster might transition to a Limited Support status. You should then either revert the action or create a support case to explore remediation steps that might require you to delete and recreate the cluster.
+  - If admin permissions were used, Azure Red Hat OpenShift is not responsible for any of your or your authorized users’ actions, including those that affect infrastructure services, service availability, or data loss. If any such actions are detected, the cluster might transition to a Limited Support status. You should then either revert the action or create a support case to explore remediation steps that might require you to delete and recreate the cluster.
 
 ## Release and deprecation process
 
@@ -119,3 +119,7 @@ If your ARO cluster is running an OpenShift version that isn't on the supported 
 - Any runtime or SLA guarantees for clusters outside of support are voided.
 - Clusters outside of support will be patched only on a best effort basis.
 - Clusters outside of support won't be monitored.
+
+**I don't see a newer version of OpenShift in the release calendar, can I still upgrade and be supported?**
+
+If a newer version of OpenShift is available in the "stable" upgrade channel, then you can upgrade to that new version and be fully supported.  For example, if your cluster is currently on 4.14.z and now version 4.15.z is available in the OCP stable-4.15 channel, even though 4.15 is not listed in the release calendar, you can upgrade to 4.15.z and be fully supported.
