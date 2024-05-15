@@ -98,7 +98,7 @@ See the following guide for the [past Red Hat OpenShift Container Platform (upst
 |4.11|August 2022| March 2 2023|February 10 2024|
 |4.12|January 2023| August 19 2023|July 17 2024|
 |4.13|May 2023| December 15 2023|November 17 2024|
-|4.14|October 2024| April 25 2024|May 1 2025|
+|4.14|October 2023| April 25 2024|May 1 2025|
 
 ## FAQ
 
