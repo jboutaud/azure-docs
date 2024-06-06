@@ -50,7 +50,7 @@ Versions in Azure Red Hat OpenShift have two distict parts; when an update to a 
 Azure Red Hat OpenShift supports generally available (GA) minor versions of Red Hat OpenShift Container Platform from when an update is available in the OpenShift `stable` channel.  Update availability can be checked at the following page, [Red Hat OpenShift Container Platform Update Graph](https://access.redhat.com/labs/ocpupgradegraph/update_path). 
 
 #### Install availability
-A version is available as an install target at a later point in time, which can be checked using the [Azure Red Hat OpenShift release calendar](#azure-red-hat-openshift-release-calendar) below or the following command: `az aro get-versions -l [region]`
+Version available selectable at install time. This can be validated using the [Azure Red Hat OpenShift release calendar](#azure-red-hat-openshift-release-calendar) below or the following command: `az aro get-versions -l [region]`
 
 ### Version end-of-life
 The end-of-life date for a version of Azure Red Hat OpenShift can be found in the [Azure Red Hat OpenShift release calendar](#azure-red-hat-openshift-release-calendar) below.
@@ -79,7 +79,8 @@ A cluster might transition to a Limited Support status for many reasons, includi
 You can reference upcoming version releases and deprecations on the [Azure Red Hat OpenShift release calendar](#azure-red-hat-openshift-release-calendar).
 
 For new minor versions of Red Hat OpenShift Container Platform:
-* The Azure Red Hat OpenShift SRE team publishes an announcement with the planned date of a new version release, and respective old version deprecation, in the [Azure Red Hat OpenShift Release notes](https://github.com/Azure/OpenShift/releases) at least 30 days prior to removal.
+* The Azure Red Hat OpenShift SRE team publishes an announcement with the planned date of a new version release, in the [Azure Red Hat OpenShift Release notes](https://github.com/Azure/OpenShift/releases).
+* The Azure Red Hat OpenShift SRE team publishes EOL of new version release when a version is released in the [Azure Red Hat OpenShift Release notes](https://github.com/Azure/OpenShift/releases).
 * The Azure Red Hat OpenShift SRE team publishes a service health notification available to all customers with Azure Red Hat OpenShift and portal access, and sends an email to the subscription administrators with the planned version removal dates.
 
 For new patch versions of Red Hat OpenShift Container Platform:
